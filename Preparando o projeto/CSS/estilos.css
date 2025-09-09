@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 1400;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    
+    
+}
+
+header {
+    height: 80px;;
+    border-bottom: 1px solid #000000;
+    
+}
+
+header img {
+    margin-top: -59px;
+    
+
+}
+
+.conteiner {
+    width: 1400px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}
+
+#planos {
+    padding: 80px 25px;
+}
+
+#planos::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+article {
+    padding: 10px;
+    border: 1px solid #4e0707;
+    width: 370px;
+    float: left;
+    margin-right: 30px;
+    
+}
+
+article > h2 {
+     background-color: #4e0707;
+     color: white;
+     text-align: center;
+     line-height: 3;
+     margin: -10px;
+     margin-bottom: 0;
+     font-weight: normal;
+     font-size: 28px;
+
+}
+
+.prata {
+    background-color: #4e0707;
+    
+}
+
+.gold {
+    background-color: #969696;
+}
+
+article > div {
+    text-align: center;
+    font-size: 28px;
+    margin: 20px 0;
+
+}
+article > ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+article >ul >li {
+    text-align: center;
+}
+
+article > footer {
+    text-align: center;
+}
+
+.botao {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+.botao:hover, .botao:focus {
+    background-color: #ac0404;
+    
+}
+
